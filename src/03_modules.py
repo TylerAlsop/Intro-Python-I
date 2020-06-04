@@ -23,6 +23,7 @@ print(sys.platform)
 # YOUR CODE HERE
 
 print(sys.exec_prefix)
+print(sys.version)
 
 
 import os
@@ -44,5 +45,6 @@ print(os.getcwd())
 import getpass
 
 print(getpass.getuser())
+print(os.getlogin())
 
 
